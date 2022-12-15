@@ -24,8 +24,13 @@
         <div id="g_id_onload" data-client_id="43969789382-m6pebbr8n9fe0b6se67bjk68kmtnhcl9.apps.googleusercontent.com"
           data-login_uri="https://localhost:7055/ImageView/CallBackOAuth"></div>
 
-        <div class="fb-login-button" data-width="" data-size="large" data-button-type="login_with" data-layout="default"
-          data-auto-logout-link="false" data-use-continue-as="false"></div>
+          <div class="card-body">
+            <button class="btn btn-facebook" (click)="signInWithFB()">
+                <i class="fa fa-facebook mr-1"></i>
+                Login with Facebook
+            </button>
+        </div>
+
       </form>
     </main>
   </div>
